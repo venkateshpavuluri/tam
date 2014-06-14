@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/Home/Layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/Home/Header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/Home/Menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/Home/Footer.jsp" />
+	</definition>
+	<!-- Prevent Maintenance Schedule Category Log -->
+	<definition name="loginHomeView" extends="base.definition">
+		<put-attribute name="body" value="Welcome" />
+	</definition>
+	<!-- School -->
+	<!-- <put-attribute name="body" value="/WEB-INF/MyWorkList/myWorkList.jsp" 
+		/> -->
+	<definition name="schoolView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/School/school.jsp" />
+	</definition>
+   <!-- Student Configuration -->
+	<definition name="studentView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/Student/student.jsp" />
+	</definition>
+	<!-- Test Type -->
+	<definition name="testTypeView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/TestType/testType.jsp" />
+	</definition>
+	<!-- Section -->
+	<definition name="sectionView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/Section/section.jsp" />
+	</definition>
+	<!-- Class -->
+	<definition name="classView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/Class/class.jsp" />
+	</definition>
+<!-- StudentClass Configuration -->
+	<definition name="studentClassView" extends="base.definition">
+		<put-attribute name="body"
+			value="/WEB-INF/StudentClass/studentClass.jsp" />
+	</definition>
+	<!-- Subject Type -->
+	<definition name="subTypeView" extends="base.definition">
+		<put-attribute name="body"
+			value="/WEB-INF/SubjectType/subjectType.jsp" />
+	</definition>
+	<!-- Subject -->
+	<definition name="subjectView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/Subject/subject.jsp" />
+	</definition>
+<!-- Term Configuration -->
+	<definition name="termHome" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/Term/term.jsp" />
+	</definition>
+         <!--      TermTest Configuration -->
+	<definition name="termTestHome" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/TermTest/TermTest.jsp" />
+	</definition>
+	                  <!-- Test Configration -->
+	 <definition name="testView" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/Test/test.jsp" />
+	</definition>
+		                  <!-- TestResult Configration -->
+	 <definition name="testResultView" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/TestResult/testResult.jsp" />
+	</definition>
+	                 <!-- Teacher Type Configration -->
+	 <definition name="teacherTypeView" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/TeacherType/TeacherType.jsp" />
+	</definition>
+
+	
+	             <!-- Privilege Configration -->
+	 <definition name="privilegeView" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/Privilege/privilege.jsp" />
+	</definition>
+	
+	      <!-- User Roles Configration -->
+	 <definition name="userRolesView" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/UserRoles/userRoles.jsp" />
+	</definition>
+	
+	 <!-- User Roles Privileges Configration -->
+	 <definition name="userRolesPrivilegesView" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/UserRolePrivilege/UserRolePrivilege.jsp" />
+	</definition>
+
+	
+<definition name="teacherHome" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/Teacher/teacher.jsp" />
+	</definition>
+	
+	<definition name="roleHome" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/Roles/role.jsp" />
+	</definition>
+	
+	
+	<definition name="userHome" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/Users/users.jsp" />
+	</definition>
+	
+	<definition name="studentTestResult" extends="base.definition">
+	<put-attribute name="body" value="/WEB-INF/StudentTestResult/studentTestResult.jsp" />
+	</definition>
+
+</tiles-definitions>
+
+
+

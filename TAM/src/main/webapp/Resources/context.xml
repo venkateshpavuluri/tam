@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contexts>
+	<context id="studentId">
+			<field  visible="true" label="Student Name" dbfield="fName"></field>	
+	</context>
+
+	<context id="TestTypeId">
+			<field  visible="true" label="Test Type" dbfield="testType"></field>	
+	</context>
+	<context id="SectionId">
+			<field  visible="true" label="Section" dbfield="section"></field>	
+	</context>
+	<context id="ClassesId">
+			<field  visible="true" label="Class" dbfield="className"></field>	
+	</context>
+
+	<context id="studentClassId">
+			<field  visible="true" label="Student Class" dbfield="studentClass"></field>	
+	</context>
+	<context id="subjectType">
+			<field  visible="true" label="Subject Type" dbfield="subjectType"></field>	
+	</context>
+	<context id="subjectId">
+			<field  visible="true" label="Subject" dbfield="subject"></field>	
+	</context>
+	
+	<context id="term">
+			<field  visible="true" label="Term" dbfield="term"></field>	
+	</context>
+	      <context id="term">
+			<field  visible="true" label="Term" dbfield="term"></field>	
+	</context>
+	<context id="termTest">
+
+			<field  visible="true" label="TermTest" dbfield="termtest"></field>	
+	</context>
+	<context id="testId">
+
+			<field  visible="true" label="test" dbfield="test"></field>	
+	</context>
+<context id="schoolId">
+			<field  visible="true" label="School Name" dbfield="schoolName"></field>	
+	</context>
+<context id="testResultId">
+<field  visible="true" label="Test" dbfield="Test_Id"></field>
+			<field  visible="true" label="Class" dbfield="Class_Id"></field>	
+			<field  visible="true" label="Subject" dbfield="Subject_Id"></field>		
+	</context>
+	<context id="TeacherTypeId">
+			<field  visible="true" label="Teacher Type" dbfield="teacherType"></field>	
+	</context>
+	
+	<context id="PrivilegeId">
+			<field  visible="true" label="Privilege" dbfield="privilege"></field>	
+	</context>
+	<context id="UserRolesId">
+			<field  visible="true" label="User" dbfield="userId"></field>	
+	</context>
+	<context id="UserRolePrivilegeId">
+			<field  visible="true" label="UserRolePrivilege" dbfield="userRolePrivilegeId"></field>	
+	</context>
+	
+	  <context id="role">
+			<field  visible="true" label="RoleName" dbfield="role_Name"></field>	
+	</context>
+	
+	  <context id="username">
+			<field  visible="true" label="userName" dbfield="userName"></field>	
+	</context>
+	
+	<context id="student">
+			<field  visible="true" label="Student" dbfield="studentId"></field>	
+	</context>
+
+	<context id="studentTestResult">
+			<field  visible="true" label="Class" dbfield="Class_Id"></field>	
+	</context>
+
+	<context id="termTest">
+			<field  visible="true" label="TermTest" dbfield="termTestId"></field>	
+	</context>
+	
+	<context id="teacher">
+			<field  visible="true" label="FirstName" dbfield="fName"></field>	
+	</context>
+	
+
+</contexts>
+
